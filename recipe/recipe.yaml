@@ -10,7 +10,7 @@ source:
   sha256: ec4f4759b5b53c19aaf6ea81ddc745d57c7c8c5577f8d859a2fc9ca2c73e3aa7
 
 build:
-  number: 0
+  number: 1
   skip: match(python, "<3.10")
   script:
     - ${{ PYTHON }} -m pip install . --no-deps --no-build-isolation -v
