@@ -1,5 +1,5 @@
 context:
-  version: "0.60.0"
+  version: "0.70.0"
 
 package:
   name: pyfixest
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyfixest/pyfixest-${{ version }}.tar.gz
-  sha256: ec4f4759b5b53c19aaf6ea81ddc745d57c7c8c5577f8d859a2fc9ca2c73e3aa7
+  sha256: 35122a7bf70170be8d1fedcca343722df5915c7b8da1d123065e5d86e590ebe8
 
 build:
   number: 0
